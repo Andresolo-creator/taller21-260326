@@ -2,7 +2,7 @@ public class ListaEnlazada {
     Nodo cabeza;
     public void insertar(int valor){
         Nodo nuevo = new Nodo(valor);
-        if (cabeza = null){
+        if (cabeza == null){
             cabeza = nuevo;    
         }else{
             Nodo temp = cabeza;
