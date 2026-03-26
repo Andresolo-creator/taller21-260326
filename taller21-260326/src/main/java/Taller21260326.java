@@ -10,7 +10,8 @@ public class Taller21260326 {
         
         ListaEnlazada Lista = new ListaEnlazada();
         
-        for(int i = 0 ; i<= n-1 ; i++){
+        for(int i = 0 ; i < n-1 ; i++){
+         
             int num = sc.nextInt();
             Lista.insertar(num);
         } 

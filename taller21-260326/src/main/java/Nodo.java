@@ -4,6 +4,7 @@ public class Nodo {
     
     public Nodo(int valor){
         this.valor = valor;
+        this.siguiente = null;
     }
     
 }
